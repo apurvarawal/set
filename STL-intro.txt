@@ -1,0 +1,10 @@
+> It arranges the data in sorted manner.
+> Unordered Set does not arrange the data in sorted manner.
+> It stores only unique values.
+> s.erase(data) can be used for deleting data or 
+> auto it = s.find(data);
+  s.erase(it)
+> to iterate over the elements of set, it's own operator is used.
+> for(set <int> :: iterator it = s.begin(); it!=s.end(); it++){
+    cout<<*(it);
+}
